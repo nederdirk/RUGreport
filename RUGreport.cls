@@ -24,6 +24,8 @@
 
 \RequirePackage{ifthen}
 
+\RequirePackage{amsmath}
+
 
 \newcommand{\specialref}[1] {\ifthenelse{\equal{\thepage}{\pageref{#1}}}{\autoref{#1}}{\autoref{#1} on page \pageref{#1}}}
 
